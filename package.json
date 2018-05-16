@@ -1,0 +1,12 @@
+{
+  "name": "array-interpolation-search",
+  "version": "1.0.0",
+  "description": "Interpolation Search as array builtin",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [],
+  "author": "Even Stensberg",
+  "license": "MIT"
+}
