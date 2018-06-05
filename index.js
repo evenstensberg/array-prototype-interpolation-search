@@ -1,18 +1,1 @@
-Array.prototype.interpolationSearch = function(item) {
-    let lo = 0;
-    let hi = this.length - 1;
-    while(lo <= hi && item >= this[lo] && item <= this[hi]) {
-        let pos = lo + Math.floor((hi-lo)*(item-this[lo])/(this[hi]-this[lo]));
-
-        if (this[pos] == item) {
-            return pos;
-        }
- 
-        if (this[pos] < item) {
-            lo = pos + 1;
-        } else {
-            hi = pos-1;
-        }
-    }
-    return -1;
-}
+Array.prototype.interpolationSearch=function(i){let l=0,h=this.length-1;while(l<=h&&i>=this[l]&&i<=this[h]){let p=l+Math.floor((h-l)*(i-this[l])/(this[h]-this[l]));if(this[p]===i){return p;}if(this[p]<i){l=p+1;}else{h=p-1;}}return -1;}
