@@ -1,6 +1,6 @@
 {
   "name": "array-interpolation-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Interpolation Search as array builtin",
   "main": "index.mjs",
   "scripts": {
